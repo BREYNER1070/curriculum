@@ -1,0 +1,156 @@
+
+.info-perso {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(217, 17, 17);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    height: 30vh;
+    width: 100vw;
+    top: 0px;
+}
+
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#nombre {
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-bottom: 10px;
+    color: #fdfdfd;
+    font-size: 3em;
+}
+
+#ocupacion {
+    padding-left: 300px;
+    padding-bottom: 50px;
+    color: #fdfdfd;
+    font-size: 1.5em;
+}
+
+.info-capacidades {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(88, 86, 86);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    width: 30vw;
+    right: 8px;
+    bottom: 10px;
+    
+}
+.info-yo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+#foto {
+    display: flex;
+    position: relative;
+    top: 20px;
+    
+    width: 120px;
+    height: 130px;
+    border-radius: 40%;
+}
+
+#contacto {
+    text-align: center;
+    position: relative;
+    bottom: 1¿30px;
+    color: #fdfdfd;
+    font-size: 1em;
+}
+
+#separador-1 {
+    position: relative;
+    top: 135px;
+    width: 29vw;
+    height: 5px;
+    background: #fcfcfc;
+    opacity: 0.8;
+}
+
+#titulo-habilidades {
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    color: #fdfdfd;
+    font-size: 1.5em;
+}
+
+#habilidades {
+    text-align: start;
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+    color: #fdfdfd;
+    font-size: 1.2em;
+}
+
+#separador-2 {
+    position: absolute;
+    bottom: 190px;
+    width: 29vw;
+    height: 5px;
+    background: #f3f3f3;
+    opacity: 0.8;
+}
+
+#titulo-idiomas {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+    color: #fdfdfd;
+    font-size: 1em;
+}
+
+#idiomas {
+    text-align: start;
+    position: relative;
+    bottom: 50px;
+    right: 120px;
+    color: #fdfdfd;
+    font-size: 1.1em;
+}
+
+.resumen {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 60vw;
+    left: 500px;
+    bottom: 480px;
+}
+
+#titulo-resumen {
+    text-align: center;
+}
+
+#resumen-profesional {
+    font-size: 1.2em;
+}
+
+p {
+    line-height: 1.5;
+}
